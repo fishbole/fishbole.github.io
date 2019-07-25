@@ -1,0 +1,15 @@
+[
+  
+    {
+      "title"       : "GDPR FAQ",
+      "description" : "This page is intended to provide information about Fishbole GDPR compliance with regards to European users.",
+      "date"        : "2019-07-25 07:00:00 +0200",
+      "categories"  : "start and blog",
+      "by"          : "Daniel Robertson",
+      "url"         : "/gdpr-faq/",
+      "icon"        : "info",
+      "questions"   : [{"question":"What is the GDPR?","answer":"The General Data Protection Regulation (GDPR) is a new European privacy law that goes into effect on May 25, 2018. The GDPR will replace the EU Data Protection Directive and will apply a single data protection law throughout the EU. Data protection laws govern the way that businesses collect, use, and share personal data about individuals. Among other things, they require businesses to process an individual’s personal data fairly and lawfully, allow individuals to exercise legal rights in respect of their personal data (for example, to access correct or delete their personal data), and ensure appropriate security protections are put in place to protect the personal data they process. We have taken steps for our European students to ensure that we are compliant with the GDPR as of May 25, 2018."},{"question":"What is Fishbole role under GDPR?","answer":"We act as a data controller under GDPR for the EU customer information we collect to operate Fishbole."},{"question":"What personal data does Fishbole collect?","answer":"We store data that customers have given us voluntarily. For example we collect and store contact information, such as name and email address, when customers sign up for our products and services or seek support help. We may also collect other identifying information from our customers, such as IP addresses. For further details on the information we collect, please visit our Privacy Policy."},{"question":"How do I remove my personal data?","answer":"To exercise your Right to Erasure or desire to Opt-out, you can delete your Fishbole account at any time. This will remove our record of your email address, name, and all other personal data. This action is immediate and not reversible. If you wish to delete your account, please write in to <a href=\"mailto:privacy@fishbole.io\">privacy@fishbole.io</a>"},{"question":"How do I access and export my personal data?","answer":"To exercise your Right to Portability and export your personal data, please email <a href=\"mailto:privacy@fishbole.io\">privacy@fishbole.io</a>"},{"question":"Contact information","answer":"Questions and concerns can be directed via email to <a href=\"mailto:privacy@fishbole.io\">privacy@fishbole.io</a>"}]
+
+    } 
+  
+]

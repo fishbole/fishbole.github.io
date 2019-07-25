@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Help Center</title>
+    <description>Fishbole Help Center</description>
+    <link>https://www.fishbole.io/</link>
+    <atom:link href="https://www.fishbole.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 25 Jul 2019 11:17:39 +0200</pubDate>
+    <lastBuildDate>Thu, 25 Jul 2019 11:17:39 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>GDPR FAQ</title>
+        <description>
+</description>
+        <pubDate>Thu, 25 Jul 2019 07:00:00 +0200</pubDate>
+        <link>https://www.fishbole.io/gdpr-faq/</link>
+        <guid isPermaLink="true">https://www.fishbole.io/gdpr-faq/</guid>
+        
+        
+        <category>start</category>
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>
