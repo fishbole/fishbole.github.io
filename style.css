@@ -86,26 +86,30 @@ p, ul {
 }
 
 section {
-    align-items: center;
+    align-items: stretch;
     padding: 100px 40px;
 }
 
 /* ----------------------- HEADER ----------------------- */
 
-#login-button {
-    background-color: white;
-    color: black;
-}
-
-#logo-container {
-    flex: 1;
-    flex-direction: row;
-}
-
 header {
     align-items: center;
     flex-direction: row;
     padding: 8px;
+}
+
+header #header-links {
+    flex-direction: row;
+}
+
+header #login-button {
+    background-color: white;
+    color: black;
+}
+
+header #logo-container {
+    flex: 1;
+    flex-direction: row;
 }
 
 header a {
@@ -137,12 +141,20 @@ section div.side-by-side>div:last-child {
     margin-left: 20px;
 }
 
-section div.side-by-side>div.primary {
-    flex: 1.4
+section div.side-by-side.left-text>div:first-child {
+    flex: 1;
 }
 
-section div.side-by-side>div.secondary {
-    flex: 1
+section div.side-by-side.left-text>div:last-child {
+    flex: 1.4;
+}
+
+section div.side-by-side.right-text>div:first-child {
+    flex: 1.4;
+}
+
+section div.side-by-side.right-text>div:last-child {
+    flex: 1;
 }
 
 /* ----------------------- HERO ----------------------- */
@@ -155,6 +167,7 @@ section div.side-by-side>div.secondary {
 #hero a.button {
     background-color: white;
     color: #3e4d9f;
+    margin-bottom: 25px;
 }
 
 #hero h1 {
@@ -170,44 +183,59 @@ section div.side-by-side>div.secondary {
     background-color: #fafafa;
 }
 
-#why h1 {
-    padding: 15px 0;
+#why #questions {
+    flex-direction: row;
 }
 
-#why div.feature-card {
+#why #feature-cards {
+    flex-direction: row;
+}
+
+#why #questions h2 {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#why #feature-cards div.feature-card, #why #questions h2 {
     background-color: white;
     border: 1px solid #ececec;
     border-radius: 6px;
+    flex: 1;
     flex-direction: row;
     margin: 16px;
     padding: 26px;
 }
 
-#why div.feature-card>div {
+#why #feature-cards div.feature-card>div {
     flex-direction: column;
 }
 
-#why div.feature-card>div:first-child {
+#why #feature-cards div.feature-card>div:first-child {
     flex: 1;
     padding-right: 10px;
 }
 
-#why div.feature-card>div:last-child {
+#why #feature-cards div.feature-card>div:last-child {
     flex: 6;
 }
 
-#why div.feature-card h4 {
+#why #feature-cards div.feature-card h4 {
     font-weight: 400;
 }
 
-#why div.feature-card i.material-icons {
+#why #feature-cards div.feature-card i.material-icons {
     color: #3e4d9f;
     font-size: 44px;
 }
 
-#why div.feature-card p {
+#why #feature-cards div.feature-card p {
     color: #666666;
     font-size: 1em;
+}
+
+#why h1 {
+    text-align: center;
+    padding: 15px 0;
 }
 
 /* ----------------------- HIGHLIGHTS ----------------------- */
@@ -237,6 +265,11 @@ section div.side-by-side>div.secondary {
 
 #call-to-action h2, #call-to-action2 h2 {
     margin-bottom: 80px;
+    text-align: center;
+}
+
+#call-to-action a.button, #call-to-action2 a.button {
+    align-self: center;
 }
 
 /* ----------------------- TESTIMONIALS ----------------------- */
@@ -245,11 +278,12 @@ section div.side-by-side>div.secondary {
     align-items: flex-start;
     color: #666666;
     flex-direction: row;
+    padding-top: 0;
 }
 
 #testimonials div.testimonial {
     flex: 1;
-    margin: 0 15px;
+    margin: 0 15px 15px 0;
 }
 
 #testimonials div.testimonial p {
@@ -259,7 +293,6 @@ section div.side-by-side>div.secondary {
 
 #testimonials div.testimonial p strong {
     font-weight: 400;
-    padding: 10px 0;
 }
 
 #testimonials div.testimonial p.testimonial-text {
@@ -267,6 +300,10 @@ section div.side-by-side>div.secondary {
     border: 1px solid #ececec;
     border-radius: 6px;
     padding: 26px;
+}
+
+#testimonials div.testimonial div.testimonial-user {
+    padding: 10px 0;
 }
 
 /* ----------------------- SCHOOLS ----------------------- */
@@ -322,6 +359,10 @@ footer #copyright {
     padding: 20px 20px;
 }
 
+footer #copyright span {
+    padding: 7px 0;
+}
+
 footer #footer-links {
     flex-direction: row;
     padding: 20px 20px;
@@ -335,4 +376,60 @@ footer #footer-links>div {
 
 footer #footer-links a.link {
     font-weight: 200;
+}
+
+@media (max-width: 1024px) {
+    #testimonials {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+    }
+    
+    h4 {
+        font-size: 1em;
+    }
+
+    section {
+        padding: 60px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    section div.side-by-side, #why #questions, #why #feature-cards, footer #footer-links, footer #copyright {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    section div.side-by-side.right-text>div:first-child {
+        order: 2;
+    }
+
+    section div.side-by-side.right-text>div:last-child {
+        order: 1;
+    }
+
+    #testimonials div.testimonial {
+        margin-bottom: 25px;
+    }
+
+    footer #copyright {
+        text-align: center;
+    }
+}
+
+@media (max-width: 675px) {
+    header #header-links {
+        display: none;
+    }
 }

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -17,23 +17,25 @@
         <div id="logo-container">
             <img alt="Fishbole logo" src="assets/site-logo.svg" />
         </div>
-        <a class="link" href="">
-            Features
-        </a>
-        <a class="link" href="">
-            Pricing
-        </a>
-        <a class="button" id="login-button">
-            Log in
-        </a>
-        <a class="button">
-            Try for free
-        </a>
+        <div id="header-links">
+            <a class="link" href="">
+                Features
+            </a>
+            <a class="link" href="">
+                Pricing
+            </a>
+            <a class="button" id="login-button">
+                Log in
+            </a>
+            <a class="button">
+                Try for free
+            </a>
+        </div>
     </header>
 
     <section id="hero">
-        <div class="side-by-side">
-            <div class="secondary">
+        <div class="side-by-side left-text">
+            <div>
                 <h1>
                     Beautifully simple video presentations
                 </h1>
@@ -45,7 +47,7 @@
                     Start for free today
                 </a>
             </div>
-            <div class="primary">
+            <div>
                 <a>
                     <img alt="See example" class="rounded shadowed" src="assets/hero-image.png" />
                 </a>
@@ -57,79 +59,79 @@
         <h1>
             Why Fishbole?
         </h1>
-        <div class="side-by-side">
-            <div class="primary">
-                <h2>
-                    No more lengthy lectures.
-                </h2>
-                <h2>
-                    No more rigid schedules.
-                </h2>
-                <h2>
-                    Just instant gratification.
-                </h2>
-                <p>
-                    People are consuming content faster than ever and audiences are opting for formats that are quick to
-                    consume, easy to digest and on their own terms.
-                </p>
+        <div id="questions">
+            <h2>
+                No more lengthy lectures.
+            </h2>
+            <h2>
+                No more rigid schedules.
+            </h2>
+            <h2>
+                Just instant gratification.
+            </h2>
+        </div>
+
+        <p>
+            People are consuming content faster than ever and audiences are opting for formats that are quick to
+            consume, easy to digest and on their own terms.
+        </p>
+
+        <div id="feature-cards">
+
+            <div class="feature-card">
+                <div>
+                    <i class="material-icons">access_time</i>
+                </div>
+                <div>
+                    <h4>
+                        Get to market faster
+                    </h4>
+                    <p>
+                        Record and share high-quality webinar style videos in a fraction of the time it does to
+                        produce a live webinar.
+                    </p>
+                </div>
             </div>
-            <div class="secondary">
 
-                <div class="feature-card">
-                    <div>
-                        <i class="material-icons">access_time</i>
-                    </div>
-                    <div>
-                        <h4>
-                            Get to market faster
-                        </h4>
-                        <p>
-                            Record and share high-quality webinar style videos in a fraction of the time it does to
-                            produce a live webinar.
-                        </p>
-                    </div>
+            <div class="feature-card">
+                <div>
+                    <i class="material-icons">beach_access</i>
                 </div>
-
-                <div class="feature-card">
-                    <div>
-                        <i class="material-icons">beach_access</i>
-                    </div>
-                    <div>
-                        <h4>
-                            Watch when convenient
-                        </h4>
-                        <p>
-                            Perfect for when you want to educate or inform multiple people on their own schedule (and
-                            yours) and without technical barriers (e.g. software downloads, plug-ins, etc.)
-                        </p>
-                    </div>
+                <div>
+                    <h4>
+                        Watch when convenient
+                    </h4>
+                    <p>
+                        Perfect for when you want to educate or inform multiple people on their own schedule (and
+                        yours) and without technical barriers (e.g. software downloads, plug-ins, etc.)
+                    </p>
                 </div>
-
-                <div class="feature-card">
-                    <div>
-                        <i class="material-icons">flash_on</i>
-                    </div>
-                    <div>
-                        <h4>
-                            Automation
-                        </h4>
-                        <p>
-                            Push viewer data from your webinars into your CMS and marketing software and get some real
-                            insights.
-                        </p>
-                    </div>
-                </div>
-
             </div>
+
+            <div class="feature-card">
+                <div>
+                    <i class="material-icons">flash_on</i>
+                </div>
+                <div>
+                    <h4>
+                        Automation
+                    </h4>
+                    <p>
+                        Push viewer data from your webinars into your CMS and marketing software and get some real
+                        insights.
+                    </p>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <section id="highlights">
-        <div class="side-by-side">
-            <div class="primary">
+        <div class="side-by-side right-text">
+            <div>
                 <img alt="Add content" class="rounded shadowed" src="assets/importing-content.png" />
             </div>
-            <div class="secondary">
+            <div>
                 <h3>
                     Add your favourite presentation content into Fishbole ready for recording.
                 </h3>
@@ -153,30 +155,33 @@
             </div>
         </div>
 
-        <div class="side-by-side">
-            <div class="secondary">
+        <div class="side-by-side left-text">
+            <div>
                 <h3>
-                    The easiest recording workspace on the web, which will make you look like a pro and save you tons of time.
+                    The easiest recording workspace on the web, which will make you look like a pro and save you tons of
+                    time.
                 </h3>
                 <p>
-                    No editing or filming skills required. The whole point of Fishbole is to make webinar style videos look awesome, without any effort.
+                    No editing or filming skills required. The whole point of Fishbole is to make webinar style videos
+                    look awesome, without any effort.
                 </p>
             </div>
-            <div class="primary">
+            <div>
                 <img alt="Easy recording" class="rounded shadowed" src="assets/recording-workspace.png" />
             </div>
         </div>
 
-        <div class="side-by-side">
-            <div class="primary">
+        <div class="side-by-side right-text">
+            <div>
                 <img alt="Short form" class="rounded shadowed" src="assets/chapters.png" />
             </div>
-            <div class="secondary">
+            <div>
                 <h3>
                     It’s a short form revolution!
                 </h3>
                 <p>
-                    Record video in 3-minute chapters. Record as many 3 minute chapters as you like, Fishbole will ‘stich’ them together to create a completed on-demand webinar.
+                    Record video in 3-minute chapters. Record as many 3 minute chapters as you like, Fishbole will
+                    ‘stich’ them together to create a completed on-demand webinar.
                 </p>
             </div>
         </div>
@@ -202,9 +207,11 @@
     <section id="testimonials">
         <div class="testimonial">
             <p class="testimonial-text">
-                Using Fishbole to flip the classroom gave my students the chance to view the material multiple times if they needed to, allowing them to learn the content at their own pace. It also freed up that lecture session to focus on other things. My students loved it and I got lots of positive feedback.
+                Using Fishbole to flip the classroom gave my students the chance to view the material multiple times if
+                they needed to, allowing them to learn the content at their own pace. It also freed up that lecture
+                session to focus on other things. My students loved it and I got lots of positive feedback.
             </p>
-            <div>
+            <div class="testimonial-user">
                 <p>
                     <strong>
                         Stacy Stephens
@@ -216,9 +223,10 @@
 
         <div class="testimonial">
             <p class="testimonial-text">
-                Fishbole has been an instant love for LiveHire. It’s perfect to deliver short and important messages in a highly engaging way with our audience.
+                Fishbole has been an instant love for LiveHire. It’s perfect to deliver short and important messages in
+                a highly engaging way with our audience.
             </p>
-            <div>
+            <div class="testimonial-user">
                 <p>
                     <strong>
                         Antonluigi Gozzi
@@ -230,9 +238,10 @@
 
         <div class="testimonial">
             <p class="testimonial-text">
-                Since switching to Fishbole to communicate our sprint reviews we’ve seen a 50% increase in the open rate of our companywide updates.
+                Since switching to Fishbole to communicate our sprint reviews we’ve seen a 50% increase in the open rate
+                of our companywide updates.
             </p>
-            <div>
+            <div  class="testimonial-user">
                 <p>
                     <strong>
                         Nitin Prasad
@@ -244,9 +253,10 @@
 
         <div class="testimonial">
             <p class="testimonial-text">
-                If you are looking at promoting an event, webinar, product, service or idea, Fishbole is a great way to get this across to your customers.
+                If you are looking at promoting an event, webinar, product, service or idea, Fishbole is a great way to
+                get this across to your customers.
             </p>
-            <div>
+            <div  class="testimonial-user">
                 <p>
                     <strong>
                         Quentin Weber
@@ -298,7 +308,8 @@
                     Embed code
                 </h4>
                 <p>
-                    Our embed code is responsive, simply copy paste the embed to your website or blog and it will automatically size to the width of your container.
+                    Our embed code is responsive, simply copy paste the embed to your website or blog and it will
+                    automatically size to the width of your container.
                 </p>
             </div>
 
@@ -308,7 +319,8 @@
                     Go fullscreen
                 </h4>
                 <p>
-                    Theater mode is perfect for when your video presentation is being projected or watched in a meeting room.
+                    Theater mode is perfect for when your video presentation is being projected or watched in a meeting
+                    room.
                 </p>
             </div>
 
@@ -318,7 +330,8 @@
                     Set to self-destruct
                 </h4>
                 <p>
-                    Worried about having old videos in the market place? Set your videos to expire at a certain date/time.
+                    Worried about having old videos in the market place? Set your videos to expire at a certain
+                    date/time.
                 </p>
             </div>
         </div>
