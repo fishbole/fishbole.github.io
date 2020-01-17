@@ -1,0 +1,338 @@
+a {
+    letter-spacing: .5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform .3s;
+}
+
+a.button {
+    background-color: #3e4d9f;
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
+    color: white;
+    font-size: .8em;
+    padding: 10px 26px;
+    text-transform: uppercase;
+}
+
+a.link {
+    color: #d3d3d3;
+    font-size: .8em;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+a:visited {
+    color: unset;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+body * {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4 {
+    color: black;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.3em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+img.rounded {
+    border-radius: 6px;
+}
+
+img.shadowed {
+    box-shadow: 0 23px 40px rgba(0, 0, 0, 0.2)
+}
+
+p {
+    padding: 25px 0;
+}
+
+p, ul {
+    color: #808080;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+section {
+    align-items: center;
+    padding: 100px 40px;
+}
+
+/* ----------------------- HEADER ----------------------- */
+
+#login-button {
+    background-color: white;
+    color: black;
+}
+
+#logo-container {
+    flex: 1;
+    flex-direction: row;
+}
+
+header {
+    align-items: center;
+    flex-direction: row;
+    padding: 8px;
+}
+
+header a {
+    margin: 5px 15px;
+}
+
+header img {
+    height: 24px;
+    padding: 10px;
+}
+
+/* ----------------------- CONTENT ----------------------- */
+
+section div.side-by-side {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section div.side-by-side>div {
+    align-items: flex-start;
+}
+
+section div.side-by-side>div:first-child {
+    margin-right: 20px;
+}
+
+section div.side-by-side>div:last-child {
+    margin-left: 20px;
+}
+
+section div.side-by-side>div.primary {
+    flex: 1.4
+}
+
+section div.side-by-side>div.secondary {
+    flex: 1
+}
+
+/* ----------------------- HERO ----------------------- */
+
+#hero {
+    background-color: #3e4d9f;
+    color: white;
+}
+
+#hero a.button {
+    background-color: white;
+    color: #3e4d9f;
+}
+
+#hero h1 {
+    color: white;
+}
+
+#hero p {
+    color: white;
+}
+
+/* ----------------------- WHY ----------------------- */
+#why {
+    background-color: #fafafa;
+}
+
+#why h1 {
+    padding: 15px 0;
+}
+
+#why div.feature-card {
+    background-color: white;
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    flex-direction: row;
+    margin: 16px;
+    padding: 26px;
+}
+
+#why div.feature-card>div {
+    flex-direction: column;
+}
+
+#why div.feature-card>div:first-child {
+    flex: 1;
+    padding-right: 10px;
+}
+
+#why div.feature-card>div:last-child {
+    flex: 6;
+}
+
+#why div.feature-card h4 {
+    font-weight: 400;
+}
+
+#why div.feature-card i.material-icons {
+    color: #3e4d9f;
+    font-size: 44px;
+}
+
+#why div.feature-card p {
+    color: #666666;
+    font-size: 1em;
+}
+
+/* ----------------------- HIGHLIGHTS ----------------------- */
+
+#highlights {
+    background-color: white;
+    border-top: 1px solid #ebebeb;
+}
+
+#highlights div.side-by-side {
+    padding-bottom: 100px;
+}
+
+/* ----------------------- MOBILE READY ----------------------- */
+
+#mobile-ready {
+    background-color: #3e4d9f;
+    color: white;
+}
+
+#mobile-ready h2 {
+    color: white;
+    text-align: center;
+}
+
+/* ----------------------- CALL TO ACTION ----------------------- */
+
+#call-to-action h2, #call-to-action2 h2 {
+    margin-bottom: 80px;
+}
+
+/* ----------------------- TESTIMONIALS ----------------------- */
+
+#testimonials {
+    align-items: flex-start;
+    color: #666666;
+    flex-direction: row;
+}
+
+#testimonials div.testimonial {
+    flex: 1;
+    margin: 0 15px;
+}
+
+#testimonials div.testimonial p {
+    font-size: 1em;
+    padding: 0 10px;
+}
+
+#testimonials div.testimonial p strong {
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+#testimonials div.testimonial p.testimonial-text {
+    background-color: #fafafa;
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    padding: 26px;
+}
+
+/* ----------------------- SCHOOLS ----------------------- */
+
+#schools {
+    background-color: #252525;
+}
+
+#schools h2, #schools h4, #schools p {
+    color: white;
+}
+
+#schools h2 {
+    margin-bottom: 80px;
+}
+
+#schools h4 {
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#schools p {
+    font-size: 1em;
+}
+
+#schools #schools-features {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#schools #schools-features div.schools-feature {
+    flex-direction: column;
+    margin: 0 15px;
+    max-width: 300px;
+}
+
+#schools #schools-features div.schools-feature img {
+    max-width: 300px;
+}
+
+/* ----------------------- FOOTER ----------------------- */
+
+footer {
+    background-color: #252525;
+}
+
+footer #copyright {
+    color: #7f7f7f;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+footer #footer-links {
+    flex-direction: row;
+    padding: 20px 20px;
+}
+
+footer #footer-links>div {
+    align-items: flex-start;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+footer #footer-links a.link {
+    font-weight: 200;
+}
