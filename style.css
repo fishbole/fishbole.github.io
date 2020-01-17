@@ -15,7 +15,7 @@ a.button {
 }
 
 a.link {
-    color: #d3d3d3;
+    color: #252525;
     font-size: .8em;
     padding: 10px;
     text-transform: uppercase;
@@ -23,10 +23,6 @@ a.link {
 
 a:hover {
     transform: scale(1.05);
-}
-
-a:visited {
-    color: unset;
 }
 
 body {
@@ -360,6 +356,9 @@ footer #copyright {
 }
 
 footer #copyright span {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
     padding: 7px 0;
 }
 
@@ -376,6 +375,10 @@ footer #footer-links>div {
 
 footer #footer-links a.link {
     font-weight: 200;
+}
+
+footer a.link {
+    color: #d3d3d3;
 }
 
 @media (max-width: 1024px) {
