@@ -1,5 +1,4 @@
 a {
-    letter-spacing: .5px;
     cursor: pointer;
     text-decoration: none;
     transition: transform .3s;
@@ -31,7 +30,8 @@ a:visited {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .5px;
     margin: 0;
 }
 
