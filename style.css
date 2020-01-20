@@ -320,6 +320,7 @@ section div.side-by-side.right-text>div:last-child {
 
 #schools h2 {
     margin-bottom: 80px;
+    text-align: center;
 }
 
 #schools h4 {
@@ -333,9 +334,12 @@ section div.side-by-side.right-text>div:last-child {
 }
 
 #schools #schools-features {
+    flex-direction: column;
+}
+
+#schools #schools-features div.features-block {
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #schools #schools-features div.schools-feature {
@@ -491,6 +495,15 @@ footer a.link {
     section {
         padding: 60px 15px;
     }
+
+    #schools #schools-features {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #schools #schools-features div.features-block {
+        flex-direction: column;
+    }
 }
 
 
@@ -510,6 +523,14 @@ footer a.link {
 
     #testimonials div.testimonial {
         margin-bottom: 25px;
+    }
+
+    #schools #schools-features {
+        flex-direction: column;
+    }
+
+    #schools #schools-features div.features-block {
+        align-items: center;
     }
 
     #plans {
