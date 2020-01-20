@@ -476,6 +476,30 @@ footer a.link {
     margin-top: 20px;
 }
 
+/* ----------------------- TERMS ----------------------- */
+
+#terms {
+    font-size: .8em;
+}
+
+#terms h2 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+#terms h3 {
+    font-size: 1em;
+}
+
+#terms p {
+    padding: 10px 0;
+    display: unset;
+}
+
+#terms p a {
+    display: inline;
+}
+
 /* ----------------------- MEDIA ----------------------- */
 
 @media (max-width: 1024px) {
