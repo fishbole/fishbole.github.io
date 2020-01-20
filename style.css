@@ -351,46 +351,6 @@ section div.side-by-side.right-text>div:last-child {
     max-width: 300px;
 }
 
-/* ----------------------- FOOTER ----------------------- */
-
-footer {
-    background-color: #252525;
-    font-size: .8em;
-}
-
-footer #copyright {
-    color: #7f7f7f;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px 20px;
-}
-
-footer #copyright span {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    padding: 7px 0;
-}
-
-footer #footer-links {
-    flex-direction: row;
-    padding: 20px 20px;
-}
-
-footer #footer-links>div {
-    align-items: flex-start;
-    flex-direction: column;
-    min-width: 300px;
-}
-
-footer #footer-links a.link {
-    font-weight: 200;
-}
-
-footer a.link {
-    color: #d3d3d3;
-}
-
 /* ----------------------- PRICING CALL-TO-ACTION ----------------------- */
 
 #pricing-cta {
@@ -498,6 +458,46 @@ footer a.link {
 
 #terms p a {
     display: inline;
+}
+
+/* ----------------------- FOOTER ----------------------- */
+
+footer {
+    background-color: #252525;
+    font-size: .8em;
+}
+
+footer #copyright {
+    color: #7f7f7f;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+footer #copyright span {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 7px 0;
+}
+
+footer #footer-links {
+    flex-direction: row;
+    padding: 20px 20px;
+}
+
+footer #footer-links>div {
+    align-items: flex-start;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+footer #footer-links a.link {
+    font-weight: 200;
+}
+
+footer a.link {
+    color: #d3d3d3;
 }
 
 /* ----------------------- MEDIA ----------------------- */
