@@ -549,6 +549,14 @@ footer a.link {
         flex-direction: column;
     }
 
+    section div.side-by-side>div:first-child {
+        margin-right: 0;
+    }
+    
+    section div.side-by-side>div:last-child {
+        margin-left: 0;
+    }
+
     section div.side-by-side.right-text>div:first-child {
         order: 2;
     }
