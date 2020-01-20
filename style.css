@@ -1,7 +1,7 @@
 a {
     cursor: pointer;
     text-decoration: none;
-    transition: transform .3s;
+    transition: transform .1s;
 }
 
 a.button {
@@ -60,6 +60,7 @@ h4 {
 
 img {
     max-width: 100%;
+    width: fit-content;
 }
 
 img.rounded {
@@ -118,6 +119,11 @@ header img {
 }
 
 /* ----------------------- CONTENT ----------------------- */
+
+section .box {
+    border: 1px solid #ececec;
+    border-radius: 6px;
+}
 
 section div.side-by-side {
     align-items: center;
@@ -194,8 +200,6 @@ section div.side-by-side.right-text>div:last-child {
 
 #why #feature-cards div.feature-card, #why #questions h2 {
     background-color: white;
-    border: 1px solid #ececec;
-    border-radius: 6px;
     flex: 1;
     flex-direction: row;
     margin: 16px;
@@ -257,6 +261,10 @@ section div.side-by-side.right-text>div:last-child {
     text-align: center;
 }
 
+#mobile-ready img {
+    align-self: center;
+}
+
 /* ----------------------- CALL TO ACTION ----------------------- */
 
 #call-to-action h2, #call-to-action2 h2 {
@@ -293,8 +301,6 @@ section div.side-by-side.right-text>div:last-child {
 
 #testimonials div.testimonial p.testimonial-text {
     background-color: #fafafa;
-    border: 1px solid #ececec;
-    border-radius: 6px;
     padding: 26px;
 }
 
@@ -381,6 +387,85 @@ footer a.link {
     color: #d3d3d3;
 }
 
+/* ----------------------- PRICING CALL-TO-ACTION ----------------------- */
+
+#pricing-cta {
+    background-color: #fafafa;
+}
+
+#pricing-cta h1, #pricing-cta h2 {
+    text-align: center;
+}
+
+#pricing-cta h1 {
+    font-size: 2.3em;
+}
+
+#pricing-cta h2 {
+    color: #808080;
+    font-size: 1.3em;
+    padding: 20px 0;
+}
+
+/* ----------------------- PLANS ----------------------- */
+
+#plans {
+    align-items: flex-start;
+    border-top: 1px solid #ebebeb;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#plans div.plan {
+    max-width: 360px;
+}
+
+#plans div.plan div.plan-price {
+    margin: 0 40px;
+    padding: 40px 0;
+}
+
+#plans div.plan div.plan-price h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+#plans div.plan div.plan-price span {
+    font-size: 1.6em;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+#plans div.plan div.plan-price p {
+    font-size: .7em;
+    padding: 0;
+}
+
+#plans div.plan div.plan-features {
+    border-top: 1px solid #ebebeb;
+    margin: 0 40px;
+    padding: 40px 0;
+}
+
+#plans div.plan div.plan-features li {
+    align-items: center;
+    flex-direction: row;
+    line-height: 1.5em;
+    font-size: .7em;
+    padding: 10px 0;
+}
+
+#plans div.plan div.plan-features li i {
+    color: #3e4d9f;
+    margin-right: 10px;
+}
+
+#plans div.plan div.plan-features li.highlight {
+    font-weight: 500;
+}
+
+/* ----------------------- MEDIA ----------------------- */
+
 @media (max-width: 1024px) {
     #testimonials {
         align-items: stretch;
@@ -408,6 +493,7 @@ footer a.link {
     }
 }
 
+
 @media (max-width: 768px) {
     section div.side-by-side, #why #questions, #why #feature-cards, footer #footer-links, footer #copyright {
         align-items: stretch;
@@ -424,6 +510,19 @@ footer a.link {
 
     #testimonials div.testimonial {
         margin-bottom: 25px;
+    }
+
+    #plans {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    #plans div.plan {
+        max-width: unset;
+    }
+
+    #plans div.plan:first-child {
+        margin-bottom: 15px;
     }
 
     footer #copyright {
