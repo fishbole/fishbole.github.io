@@ -1,0 +1,248 @@
+a {
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform .1s;
+}
+
+a.button {
+    background-color: #3e4d9f;
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
+    color: white;
+    letter-spacing: 1px;
+    padding: 10px 26px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a.link {
+    color: #252525;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+a.link:visited {
+    color: #252525;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+body * {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4 {
+    color: black;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+h1.title {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.3em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+html {
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    width: fit-content;
+}
+
+img.rounded {
+    border-radius: 6px;
+}
+
+img.shadowed {
+    box-shadow: 0 23px 40px rgba(0, 0, 0, 0.2)
+}
+
+p {
+    padding: 25px 0;
+}
+
+p, ul {
+    color: #808080;
+    line-height: 2em;
+    font-weight: 300;
+}
+
+section {
+    align-items: stretch;
+    font-size: 1em;
+    padding: 100px 40px;
+}
+
+/* ----------------------- HEADER ----------------------- */
+
+header {
+    align-items: center;
+    flex-direction: row;
+    font-size: .8em;
+    padding: 8px;
+}
+
+header #header-links {
+    flex-direction: row;
+}
+
+header #login-button {
+    background-color: white;
+    color: black;
+}
+
+header #logo-container {
+    flex: 1;
+    flex-direction: row;
+}
+
+header a {
+    margin: 5px 15px;
+}
+
+header img {
+    height: 24px;
+    padding: 10px;
+    width: unset;
+}
+
+/* ----------------------- CONTENT ----------------------- */
+
+div.gradient {
+    height: 30px;
+}
+
+div.gradient-bw {
+    background-image: linear-gradient(to bottom right, #3e4d9f calc(50% - 1px), white calc(50% + 1px));
+}
+
+div.gradient-wb {
+    background-image: linear-gradient(to bottom right, white calc(50% - 1px), #3e4d9f calc(50% + 1px));
+}
+
+section .box {
+    border: 1px solid #ececec;
+    border-radius: 6px;
+}
+
+section div.side-by-side {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section div.side-by-side>div {
+    align-items: flex-start;
+}
+
+section div.side-by-side>div:first-child {
+    margin-right: 20px;
+}
+
+section div.side-by-side>div:last-child {
+    margin-left: 20px;
+}
+
+section div.side-by-side.left-text>div:first-child {
+    flex: 1;
+}
+
+section div.side-by-side.left-text>div:last-child {
+    flex: 1.4;
+}
+
+section div.side-by-side.right-text>div:first-child {
+    flex: 1.4;
+}
+
+section div.side-by-side.right-text>div:last-child {
+    flex: 1;
+}
+
+/* ----------------------- HERO ----------------------- */
+
+#hero {
+    background-color: #3e4d9f;
+    color: white;
+}
+
+#hero #play-example-cta {
+    align-self: center;
+    padding-top: 20px;
+}
+
+#hero a.button {
+    background-color: white;
+    color: #3e4d9f;
+    margin-bottom: 25px;
+}
+
+#hero h1 {
+    color: white;
+}
+
+#hero p {
+    color: white;
+}
+
+/* ----------------------- COMPANIES ----------------------- */
+
+#companies {
+
+}
+
+#companies #companies-block {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+#companies div.company-block {
+    margin: 0 30px;
+    max-width: 160px;
+}
+
+#companies div.company-block a {
+    align-items: center;
+    flex-direction: column;
+    text-transform: none;
+}
+
+#companies div.company-block img {
+    height: auto;
+    max-height: 160px;
+    max-width: 160px;
+    width: auto;
+}
+
+#companies div.company-block span {
+    margin-top: 15px;
+    text-align: center;
+}
