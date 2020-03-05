@@ -375,3 +375,60 @@ footer #footer-links a.link {
     color: #d3d3d3 !important;
     font-weight: 200;
 }
+
+@media (max-width: 1024px) {
+    #hero div.side-by-side {
+        align-items: stretch;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    section div.side-by-side, #plans, #cta {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    section div.side-by-side>div:first-child {
+        margin-right: 0;
+    }
+    
+    section div.side-by-side>div:last-child {
+        margin-left: 0;
+    }
+
+    section div.side-by-side.right-text>div:first-child {
+        order: 2;
+    }
+
+    section div.side-by-side.right-text>div:last-child {
+        order: 1;
+    }
+
+    div.wrapping-cards {
+        justify-content: space-evenly;
+    }
+
+    #cta h1 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #plans div.plan {
+        max-width: unset;
+    }
+
+    #plans div.plan {
+        margin-bottom: 15px;
+    }
+
+    #plans div.plan:last-child {
+        margin-bottom: unset;
+    }
+}
+
+@media (max-width: 600px) {
+    header #header-links {
+        display: none;
+    }
+}
