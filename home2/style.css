@@ -147,8 +147,19 @@ div.wrapping-cards {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 25px;
+}
+
+div.wrapping-cards.paged {
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div.wrapping-cards.paged>div {
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 div.wrapping-cards div.card {
@@ -381,6 +392,15 @@ footer #footer-links a.link {
         align-items: stretch;
         flex-direction: column;
     }
+
+    div.wrapping-cards.paged {
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    
+    div.wrapping-cards.paged>div {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 768px) {
@@ -405,8 +425,9 @@ footer #footer-links a.link {
         order: 1;
     }
 
-    div.wrapping-cards {
-        justify-content: space-evenly;
+    div.wrapping-cards.paged {
+        align-items: center;
+        flex-direction: column;
     }
 
     #cta h1 {
