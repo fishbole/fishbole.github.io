@@ -446,6 +446,11 @@ footer #footer-links a.link {
 }
 
 @media (max-width: 600px) {
+    #companies div.card img {
+        max-height: 100px;
+        max-width: 100px;
+    }
+
     header #header-links {
         display: none;
     }
