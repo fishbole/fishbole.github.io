@@ -229,10 +229,6 @@ section.white {
     margin-bottom: 25px;
 }
 
-#hero h1 {
-    min-width: 500px;
-}
-
 /* ----------------------- COMPANIES ----------------------- */
 
 #companies div.card {
@@ -369,6 +365,7 @@ footer #copyright span {
     display: flex;
     flex-direction: row;
     padding: 7px 0;
+    text-align: center;
 }
 
 footer #footer-links {
@@ -378,8 +375,8 @@ footer #footer-links {
 
 footer #footer-links>div {
     align-items: flex-start;
+    flex: 1;
     flex-direction: column;
-    min-width: 300px;
 }
 
 footer #footer-links a.link {
@@ -451,5 +448,11 @@ footer #footer-links a.link {
 @media (max-width: 600px) {
     header #header-links {
         display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    footer #footer-links {
+        flex-direction: column;
     }
 }
