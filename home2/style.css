@@ -74,7 +74,7 @@ img {
 }
 
 img.rounded {
-    border-radius: 6px;
+    border-radius: 12px;
 }
 
 img.shadowed {
@@ -279,7 +279,7 @@ section.white {
 }
 
 #plans div.plan {
-    max-width: 360px;
+    flex: 1;
     margin: 0 15px;
     padding: 40px;
 }
@@ -437,7 +437,7 @@ footer #footer-links a.link {
     }
 
     #plans div.plan {
-        margin-bottom: 15px;
+        margin: 0 0 15px 0;
     }
 
     #plans div.plan:last-child {
