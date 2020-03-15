@@ -258,6 +258,14 @@ section.white {
     text-align: center;
 }
 
+/* ----------------------- SPACES ----------------------- */
+
+#spaces-cta {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 /* ----------------------- FEATURES ----------------------- */
 
 #features div.card {
@@ -342,7 +350,7 @@ section.white {
 #cta {
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #cta a.button {
