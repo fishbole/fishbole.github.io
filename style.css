@@ -199,10 +199,12 @@ section div.side-by-side.left-text>div:first-child {
 }
 
 section div.side-by-side.left-text>div:last-child {
+    align-items: center;
     flex: 1.4;
 }
 
 section div.side-by-side.right-text>div:first-child {
+    align-items: center;
     flex: 1.4;
 }
 
