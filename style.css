@@ -48,6 +48,7 @@ body * {
 h1, h2, h3, h4 {
     font-weight: 300;
     line-height: 1.3em;
+    margin: 15px 0;
 }
 
 h1 {
@@ -92,6 +93,8 @@ img.shadowed {
 }
 
 p {
+    align-items: center;
+    flex-direction: row;
     padding: 15px 0;
 }
 
@@ -151,6 +154,14 @@ div.gradient-bw {
 
 div.gradient-wb {
     background-image: linear-gradient(to bottom right, white calc(50% - 1px), #3e4d9f calc(50% + 1px));
+}
+
+div.gradient-blue-black {
+    background-image: linear-gradient(to bottom right, #3e4d9f calc(50% - 1px), #252525 calc(50% + 1px));
+}
+
+div.gradient-black-white {
+    background-image: linear-gradient(to bottom right, #252525 calc(50% - 1px), white calc(50% + 1px));
 }
 
 div.wrapping-cards {
@@ -216,6 +227,19 @@ section div.side-by-side.right-text>div:first-child {
 
 section div.side-by-side.right-text>div:last-child {
     flex: 1;
+}
+
+section.black {
+    background-color: #252525;
+    color: white;
+}
+
+section.black a.link {
+    color: white;
+}
+
+section.black a.link:visited {
+    color: white;
 }
 
 section.blue {
