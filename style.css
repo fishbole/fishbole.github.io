@@ -15,6 +15,12 @@ a.button {
     text-transform: uppercase;
 }
 
+a.button.section-button {
+    background-color: white;
+    color: #3e4d9f;
+    margin-bottom: 25px;
+}
+
 a.link {
     color: #252525;
     padding: 10px;
@@ -86,7 +92,7 @@ img.shadowed {
 }
 
 p {
-    padding: 25px 0;
+    padding: 15px 0;
 }
 
 p, ul {
@@ -227,12 +233,6 @@ section.white {
 #hero {
     background-color: #3e4d9f;
     color: white;
-}
-
-#hero a.button {
-    background-color: white;
-    color: #3e4d9f;
-    margin-bottom: 25px;
 }
 
 /* ----------------------- COMPANIES ----------------------- */
