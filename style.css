@@ -384,6 +384,10 @@ section.white {
     padding-right: 40px;
 }
 
+#privacy h2, #privacy h3, #terms h2, #terms h3 {
+    font-size: 1.3em;
+}
+
 /* ----------------------- FOOTER ----------------------- */
 
 footer {
