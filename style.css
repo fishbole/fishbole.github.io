@@ -109,6 +109,19 @@ section {
     padding: 100px 40px;
 }
 
+table, tbody {
+    flex-direction: column;
+}
+
+tr {
+    flex-direction: row;
+}
+
+td {
+    flex: 1;
+    padding: 5px;
+}
+
 /* ----------------------- HEADER ----------------------- */
 
 header {
@@ -386,6 +399,17 @@ section.white {
 
 #privacy h2, #privacy h3, #terms h2, #terms h3 {
     font-size: 1.3em;
+}
+
+/* ----------------------- PROVACY ----------------------- */
+
+#privacy ul {
+    list-style: circle outside none;
+}
+
+#privacy ul li {
+    display: list-item;
+    margin-left: 25px;
 }
 
 /* ----------------------- FOOTER ----------------------- */
