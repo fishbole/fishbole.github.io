@@ -1,0 +1,14 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fishbole">
+  <!-- Body with eye cut out (even-odd hole instead of a mask so the
+       transparency survives import into raster editors). -->
+  <path
+    fill-rule="evenodd"
+    fill="#0f5259"
+    d="M14 12.5 H20 A10.5 10.5 0 0 1 30.5 23 V25 A10.5 10.5 0 0 1 20 35.5 H14 A10.5 10.5 0 0 1 3.5 25 V23 A10.5 10.5 0 0 1 14 12.5 Z
+       M15.5 20 A3 3 0 1 1 9.5 20 A3 3 0 1 1 15.5 20 Z"
+  />
+  <path
+    fill="#ff7a2f"
+    d="M29 24 C34 18.5 39.5 14 44.5 11.5 C42.8 20 42.8 28 44.5 36.5 C39.5 34 34 29.5 29 24 Z"
+  />
+</svg>

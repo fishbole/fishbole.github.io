@@ -1,0 +1,10 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fishbole">
+  <!-- Favicon: teal tile, all-cream mark (orange tail dropped for small-size
+       legibility, per logo spec), teal eye. Cream normalised to --cream #FBF5E9. -->
+  <rect width="48" height="48" rx="11" fill="#0F5259"/>
+  <g transform="translate(24 24) scale(0.72) translate(-24 -24)">
+    <rect x="3.5" y="12.5" width="27" height="23" rx="10.5" fill="#FBF5E9"/>
+    <path d="M29 24 C34 18.5 39.5 14 44.5 11.5 C42.8 20 42.8 28 44.5 36.5 C39.5 34 34 29.5 29 24 Z" fill="#FBF5E9"/>
+    <circle cx="12.5" cy="20" r="3" fill="#0F5259"/>
+  </g>
+</svg>
